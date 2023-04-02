@@ -215,13 +215,11 @@ border-radius: 4px;
 height: 112px;
 margin-bottom: 8px;}
 
-.gallary {padding-top: 120px;
-    padding-bottom: 120px;}
+.gallary {padding-bottom: 120px;}
 .photo-container {display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-top: 72px;
-    padding-bottom: 120px;}
+    margin-top: 72px;}
 .photo {flex-basis: calc((100% - 48px) / 3);}
 .gallary-text {font-size: 36px;
     line-height: 1.11;
@@ -229,7 +227,7 @@ margin-bottom: 8px;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--brand-color);}
-.team {background-color: var(--color-logo2);
+.team {background-color: var(--color-logo2); 
     padding-top: 120px;
     padding-bottom: 120px;}
 .team-text {font-size: 36px;
