@@ -151,11 +151,14 @@ color: #E7E9FC;}
 .footer-soc-icon {fill: #FFFFFF;
     width: 24px;
     height: 24px;}
-.hero {background: var(--brand-color);
+.hero {height: 600px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: var(--brand-color);
     background-image: url(../images/dark-bg.png), url(../images/people-office-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1440px 600px;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;}
 .hero-text {font-size: 56px;
@@ -167,17 +170,16 @@ color: #E7E9FC;}
     margin: 0 auto;
     margin-bottom: 48px;}
 .hero-button {font-family: "Roboto", sans-serif}
-.hero-button:hover {background-color: var(--color-hoover);}
-.hero-button:focus {background-color: var(--color-hoover);}
+.hero-button:hover {background-color: var(--color-hoover); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
+.hero-button:focus {background-color: var(--color-hoover); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
 .hero-button {background-color: var(--color-logo1);
-    border-radius: 4px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;}
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;}
 .hero-button {cursor: pointer;
     display: inline-block;
-    margin: 0 auto;}
+    padding: 16px 32px;
+    margin: 0 auto;
+border: none;}
 .text-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -216,17 +218,18 @@ height: 112px;
 margin-bottom: 8px;}
 
 .gallary {padding-bottom: 120px;}
+
 .photo-container {display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 72px;}
-.photo {flex-basis: calc((100% - 48px) / 3);}
+    gap: 24px;}
 .gallary-text {font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--brand-color);}
+    color: var(--brand-color);
+    margin-bottom: 72px;
+    padding: 0;}
+
 .team {background-color: var(--color-logo2); 
     padding-top: 120px;
     padding-bottom: 120px;}
