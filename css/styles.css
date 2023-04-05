@@ -151,8 +151,8 @@ color: #E7E9FC;}
 .footer-soc-icon {fill: #FFFFFF;
     width: 24px;
     height: 24px;}
-.hero {height: 600px;
-    max-width: 1400px;
+.hero {max-width: 1440px;
+    height: 600px;
     margin: 0 auto;
     background: var(--brand-color);
     background-image: url(../images/dark-bg.png), url(../images/people-office-1.jpg);
